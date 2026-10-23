@@ -9,12 +9,7 @@ function App() {
 
   return (
     <main className="page-shell">
-      <nav className="nav-bar" aria-label="Main navigation">
-        <Brand />
-        <a className="nav-link" href="https://react.dev" target="_blank" rel="noreferrer">
-          Learn React <span aria-hidden="true">↗</span>
-        </a>
-      </nav>
+     
 
       <section className="hero">
         <div className="hero-copy">
@@ -31,10 +26,7 @@ function App() {
         <HeroArt />
       </section>
 
-      <section className="features" aria-label="Project features">
-        {features.map((feature) => <FeatureCard key={feature.number} {...feature} />)}
-      </section>
-
+   
       <footer>Made with React <span>·</span> Ready for your next idea</footer>
     </main>
   )
